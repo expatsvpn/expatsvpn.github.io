@@ -277,7 +277,7 @@ STEP3，ENTER LAUNCHPAD, OPEN SHADOWSOCKSX, right-c">
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
                 <a href="/2013/07/13/Iphoe/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2013/07/13/Iphoe/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2013/07/13/Iphoe/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -387,8 +387,11 @@ STEP3，ENTER LAUNCHPAD, OPEN SHADOWSOCKSX, right-c">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2013/07/13/Iphoe/"
-           data-title="iPhone" data-url="http://yoursite.com/2013/07/13/Iphoe/">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
       </div>
     
   </div>
@@ -579,28 +582,30 @@ STEP3，ENTER LAUNCHPAD, OPEN SHADOWSOCKSX, right-c">
 
   
 
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"expats"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-  
 
 
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'expatsvpn';
+      var disqus_identifier = '2013/07/13/Iphoe/';
+      var disqus_title = 'iPhone';
+      var disqus_url = 'http://yoursite.com/2013/07/13/Iphoe/';
+
+      function run_disqus_script(disqus_script){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
+      
+    </script>
+  
 
 
 
